@@ -1,0 +1,207 @@
+#container {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* background: linear-gradient(
+      to left top,
+      #a8eb12,
+      #00bf72,
+      #008793,
+      #004d7a,
+      #051937
+    ); */
+    background: linear-gradient(
+      to right top,
+      #7df391,
+      #71d077,
+      #4a984b,
+      #246c1b,
+      #0f450d
+    );
+  }
+  
+  #loginform {
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1 !important;
+    /* color: white !important; */
+  }
+  
+  #loginform form {
+    height: 70%;
+    width: 30%;
+    min-width: 410px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: -6px 5px 13px -2px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: -6px 5px 13px -2px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -6px 5px 13px -2px rgba(0, 0, 0, 0.78);
+    border-radius: 10px;
+    max-height: 600px !important;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 50px;
+    padding: 50px;
+    z-index: 1;
+    margin-top: -50px;
+    /* color: white !important; */
+  }
+  
+  #loginform img {
+    height: 70px;
+    margin: -10px auto;
+  }
+  
+  #login {
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  /* #loginform input{
+      color: white !important;
+  }
+  #loginform label{
+      color: white !important;
+  } */
+  
+  #loginform input[type="checkbox"] {
+    accent-color: red;
+    /* bac */
+  }
+  
+  #dropdown {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 12px;
+    padding: 2px 0 0 15px;
+    color: rgb(67, 64, 64);
+    outline: none;
+  }
+  
+  #inputfields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px;
+  }
+  
+  .inputfield {
+    border: 1px solid rgb(147, 144, 144);
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .inputfield label {
+    padding: 0px 4px;
+    position: absolute;
+    letter-spacing: 0px;
+    top: -10px;
+    left: 10px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+    color: rgba(52, 58, 61, 0.6);
+    font-weight: 60;
+    z-index: 1;
+  }
+  
+  #outlined-basic {
+    padding-right: 50px;
+  }
+  
+  .remember {
+    margin-top: -9px;
+    margin-left: 13px;
+    display: flex;
+    gap: 6px;
+    color: black;
+  }
+  
+  .remember label,
+  .remember input {
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    cursor: pointer;
+  }
+  
+  /* #log {
+    /* background-color: rgb(5, 108, 24); */
+  /* background: linear-gradient(
+      266deg,
+      rgba(28, 59, 90, 1) 8%,
+      rgba(10, 34, 58, 1) 71%
+    ); */
+  /* background-color: #004d7a;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px;
+    width: 33%;
+    margin: auto; */
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  /* font-family: Arial; */
+  /* font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: lighter !important;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px; */
+  /* font-weight: 100 !important; */
+  /* } */
+  
+  #log {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background: #17440a;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #757676;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px;
+    width: 30%;
+    margin: auto;
+  }
+  
+  #log:hover {
+    /* background: linear-gradient(
+      to left bottom,
+      #a8eb12,
+      #00bf72,
+      #008793,
+      #004d7a,
+      #051937
+    ); */
+    background: linear-gradient(
+      to right top,
+      #7df391,
+      #71d077,
+      #4a984b,
+      #246c1b,
+      #0f450d
+    );
+    /* background: #022a42; */
+    box-shadow: inset 0 0 0 red;
+    transition: all 0.5s;
+    color: #fff;
+  }
+  
+  .border {
+    border-color: rgb(92, 92, 92) !important;
+  }
+  
